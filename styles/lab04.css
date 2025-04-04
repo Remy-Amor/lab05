@@ -1,0 +1,87 @@
+/*
+
+filename: lab04.css
+
+author: Remy Amor
+
+created: 27/3/2025
+
+last modified: 27/3/2025
+
+description: refers to index.html HTML file
+
+*/
+
+ /* Sets the font and color of all elements on the page */
+* {
+     font-family: calibri, sans-serif;
+     color: #2F4F4F;
+}
+
+/* Style for the h1 heading */
+h1 { 
+     color: purple; 
+     font-size: 2em; 
+     font-weight: bold; 
+ }
+
+ /* Style for h2 headings */
+ h2 {
+     color: rgb(0,128,128);
+     font-weight: bold;
+     font-size: 1.5em;
+ }
+
+ /* style for the aside elements and the footer elements */
+ aside, footer {
+     font-style: italic;
+ }
+
+ /* style for headings 1 through 3 */
+ h1, h2, h3 {
+     font-family: Arial, sans-serif;
+ }
+
+ /* style for the table */
+ table, th, td {
+     border: 1px solid black;
+ }
+
+/* style for the images heading */
+ #images {
+     text-align: center;
+ }
+
+/* Style for special characters */
+ .special {
+     color: darkorange;
+     font-weight: bold;
+ }
+
+ /* Style for the January and February month table headings */
+ .month_table_heading {
+     text-align: right;
+ }
+
+ /* Style for hyperlinks in the nav bar */
+ nav a {
+     text-decoration: none;
+     padding:0.2em 0.6em;
+     border: 4px solid #ccc;
+    }  
+
+/* Style for aside when hovered upon */
+aside:hover {
+    visibility: hidden;
+}
+
+/* style for menu when hovered */
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
+
+/* style for h3 that says headings */
+#headings_h3 {
+    color: red;
+}
