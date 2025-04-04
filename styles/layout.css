@@ -13,3 +13,7 @@ description: refers to lab05.html HTML file
 */
 
 aside:hover {display:block;}
+
+.menu {
+     display: inline-block;
+}
